@@ -1,3 +1,7 @@
+maaf masih newbie
+
+https://fauzan46.github.io/lomba-17n-cuy/
+
 # lomba-17n-cuy
 # Perlawanan Perjajahan 1945
 
