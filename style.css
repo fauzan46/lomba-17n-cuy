@@ -1,0 +1,88 @@
+*,body {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: royal-bold;
+    src: url(assets/font/typewriter_________royal200bold.ttf);
+}
+@font-face {
+    font-family: royal;
+    src: url(assets/font/typewcond_demi.otf);
+}
+
+h1 {
+    font-family: royal-bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/indonesia-grunge-flag-750x375.jpg);
+    background-size: 100% 100%;
+    filter: sepia(80%);
+}
+
+.bab {
+    text-align: center;
+    padding: 10px;
+    font-family: royal;
+    font-size: 30px;
+    position: relative;
+}
+
+.bab img {
+    filter:sepia();
+    width: 400px;
+}
+
+header {
+    animation: animatetop 2s   forwards;
+}
+
+.bab1 {
+    animation: animatetop 10s  forwards;
+}
+
+.bab2 {
+    animation: animatetop 15s  forwards;
+}
+
+.bab3 {
+    animation: animatetop 20s  forwards;
+}
+
+.bab4 {
+    animation: animatetop 25s  forwards;
+}
+
+.bab5 {
+    animation: animatetop 30s  forwards;
+}
+
+.bab6 {
+    animation: animatetop 35s  forwards;
+}
+
+@keyframes animatetop{
+    from{top:-300px;opacity:0} 
+    to{top:0;opacity:1}
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    padding-top: 20px;
+    font-family: royal;
+    font-size: 20px;
+}
